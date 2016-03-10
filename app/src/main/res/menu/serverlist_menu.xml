@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/showconsole" android:title="Консоль"/>
+    <item android:id="@+id/deleteServer" android:title="Удалить" />
+    <item android:id="@+id/showPlayerList" android:title="Список игроков" />
+    <item android:id="@+id/showMapList" android:title="Карты" />
+</menu>

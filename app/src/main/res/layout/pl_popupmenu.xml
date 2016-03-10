@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/menu_bg"
+        android:elevation="2dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Кикнуть"
+            android:id="@+id/plmenuitem_kick"
+            android:textColor="@color/PrimaryDarkText"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#B6B6B6">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Забанить"
+            android:id="@+id/plmenuitem_ban"
+            android:textColor="@color/PrimaryDarkText"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#B6B6B6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Сменить ник"
+            android:id="@+id/plmenuitem_name"
+            android:textColor="@color/PrimaryDarkText"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#B6B6B6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Подробно"
+            android:id="@+id/plmenuitem_extra"
+            android:textColor="@color/PrimaryDarkText"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

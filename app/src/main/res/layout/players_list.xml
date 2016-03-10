@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".PlayersList">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Primary"
+        android:id="@+id/pltoolbar__"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/CustomActionBar"
+        android:minHeight="?android:attr/actionBarSize"
+        android:elevation="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Список игроков"
+            android:id="@+id/pl_toolbar_title"
+            android:paddingLeft="8dp"
+            android:textAppearance="@id/action_bar_title"
+            android:textSize="20sp"
+            android:textColor="@color/PrimaryLightText"/>
+
+    </android.support.v7.widget.Toolbar>
+    <!--android.support.v7.widget.RecyclerView
+        android:id="@+id/plrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/playetslist_listview"/>
+
+</LinearLayout>

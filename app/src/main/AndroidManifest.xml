@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          package="voed.voed.hlrcon">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hlrcon"
+        android:label="@string/app_name"
+        app:theme="@style/AppTheme"
+        android:theme="@style/AppTheme"
+        android:name=".ApplicationContextProvider"
+        >
+
+        <activity
+            android:name=".AddServer"
+            android:label="Добавить сервер"
+            >
+            <!--android:screenOrientation="portrait"-->
+        </activity>
+        <activity
+            android:name=".Console"
+            android:label="@string/title_activity_console">
+        </activity>
+
+        <activity android:name=".ServerList"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SettingsActivity"
+            android:label="@string/action_settings">
+
+        </activity>
+
+        <activity android:name=".MapsList"
+            android:label="@string/maps">
+
+        </activity>
+
+
+        <activity android:name=".PlayersActivity"
+            android:label="@string/players">
+        </activity>
+
+        <receiver android:name=".Widget" android:label="@string/app_name"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".APPWIDGET_UPDATE" />
+                <action android:name="voed.voed.hlrcon.Widget.ACTION_WIDGET_RECEIVER" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/widget_provider" />
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="images">
+        <item>@drawable/cs</item>
+        <item>@drawable/hl</item>
+        <!--item>@drawable/close</item-->
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/plcontentview"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground"
+    android:backgroundTint="@android:color/holo_blue_bright"
+    android:clickable="true"
+    android:focusable="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/player_name"
+            android:textColor="@color/PrimaryDarkText"
+            android:textSize="16sp"
+            android:text="SSSSSSSSSSSSSSSSSSSSSS"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/avatarImageView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="#1"
+            android:id="@+id/player_index"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/SecondaryDark"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Score: 13"
+                android:id="@+id/player_score"
+                android:textColor="@color/SecondaryDark"
+                android:textSize="14sp"
+                android:layout_below="@+id/player_name"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/avatarImageView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Ping: 50ms"
+                android:id="@+id/player_ping"
+                android:textColor="@color/SecondaryDark"
+                android:textSize="14sp"
+                android:layout_below="@+id/player_name"
+                android:layout_toRightOf="@+id/player_score"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Time: 5m"
+                android:id="@+id/player_time"
+                android:textColor="@color/SecondaryDark"
+                android:textSize="14sp"
+                android:layout_below="@+id/player_score"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/avatarImageView" />
+
+        <com.pkmmte.view.CircularImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/avatarImageView"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            app:border="true"
+            app:border_color="@color/SecondaryDark"
+            app:border_width="0dp"
+            app:shadow="false"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Divider">
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryDark">#00796B</color>
+    <color name="Primary">#252525</color>
+    <color name="PrimaryLight">#B2DFDB</color>
+    <color name="PrimaryLightText">#FFFFFF</color>
+    <color name="Accent">#FF6600</color>
+    <color name="PrimaryDarkText">#393938</color>
+    <color name="SecondaryDark">#727272</color>
+    <color name="Divider">#B6B6B6</color>
+    <color name="StatusBar">#191919</color>
+    <color name="ListBG">#f0f0f0</color>
+    <color name="ListItem">#fff</color>
+    <color name="refresh_progress_1">@color/PrimaryLight</color>
+    <color name="refresh_progress_2">@color/Accent</color>
+    <color name="refresh_progress_3">@color/Primary</color>
+    <color name="cheater">#FF2222</color>
+</resources>

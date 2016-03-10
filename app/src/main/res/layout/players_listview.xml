@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="56dp"
+              android:background="@color/PrimaryLightText"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="#1"
+            android:id="@+id/player_index"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/SecondaryDark"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/player_name"
+                android:textColor="@color/PrimaryDarkText"
+                android:textSize="16sp"
+                android:text="SSSSSSSSSSSSSSSSSSSSSS"
+                android:singleLine="true"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Time: 5m"
+                    android:id="@+id/player_time"
+                    android:textColor="@color/SecondaryDark"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Score: 13"
+                    android:id="@+id/player_score"
+                    android:textColor="@color/SecondaryDark"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/player_menu"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_navigation_more_vert_grey"
+                android:background="@null"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

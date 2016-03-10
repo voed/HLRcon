@@ -1,0 +1,5 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="console_land">
+        <item name="android:paddingTop">10dp</item>
+    </style>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bansystems_values">
+        <item name="default">0</item>
+        <item name="amxbans">1</item>
+        <item name="superban">2</item>
+        <item name="other">3</item>
+    </string-array>
+
+    <string-array name="bansystems">
+        <item name="default">Стандартная AMXX</item>
+        <item name="amxbans">AMXBans</item>
+        <item name="superban">SuperBan</item>
+        <item name="other">Другая</item>
+    </string-array>
+
+    <string-array name="refresh_intervals_values">
+        <item name="1m">1</item>
+        <item name="5m">5</item>
+        <item name="15m">15</item>
+    </string-array>
+
+    <string-array name="refresh_intervals">
+        <item name="1m">1 минута</item>
+        <item name="5m">5 минут</item>
+        <item name="15m">15 минут</item>
+    </string-array>
+
+    <string-array name="serverpopup">
+        <item name="console">Консоль</item>
+        <item name="players">Список игроков</item>
+        <item name="maps">Сменить карту</item>
+        <item name="settings">Настройки</item>
+        <item name="remove">Удалить</item>
+    </string-array>
+
+    <string-array name="playerpopup">
+        <item name="kick">Кикнуть</item>
+        <item name="ban">Забанить</item>
+        <item name="change_name">Сменить ник</item>
+    </string-array>
+
+    <string-array name="banmenuspinner">
+        <item name="perm">навсегда</item>
+        <item name="mins">минут</item>
+        <item name="hours">часов</item>
+        <item name="days">дней</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--EditTextPreference android:title="Your Name"
+        android:key="username"
+        android:summary="Please provide your username"/>
+    <CheckBoxPreference android:title="Application Updates"
+        android:defaultValue="false"
+        android:summary="This option if selected will allow the application to check for latest versions."
+        android:key="applicationUpdates" />
+    <PreferenceCategory android:title="@string/settings_ban" >
+        <ListPreference
+            android:key="prefBanSystem"
+            android:entries="@array/bansystems"
+            android:summary="@string/settings_bansystem_sum"
+            android:entryValues="@array/bansystems_values"
+            android:title="@string/settings_bansystem" />
+
+        <EditTextPreference android:title="Своя причина бана (пока недоступно)"
+            android:enabled="false"
+            android:key="prefCustomBanType"
+            android:summary="@string/settings_customban_sum"/>
+    </PreferenceCategory-->
+    <PreferenceCategory android:title="@string/settings_serverlist" >
+        <CheckBoxPreference android:title="@string/autorefresh"
+            android:defaultValue="true"
+            android:key="prefAutoRefresh" />
+
+        <ListPreference
+            android:key="prefAutoRefreshInt"
+            android:entries="@array/refresh_intervals"
+            android:defaultValue="1"
+            android:summary=""
+            android:entryValues="@array/refresh_intervals_values"
+            android:title="@string/settings_autorefresh_int" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

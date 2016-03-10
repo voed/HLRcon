@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HLRcon</string>
+    <string name="app_version">1.2</string>
+    <string name="version">версия </string>
+    <string name="refresh">Обновить</string>
+    <string name="autorefresh">Автообновление</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_addserver">Добавить сервер</string>
+    <string name="title_activity_console">Консоль</string>
+    <string name="players">Список игроков</string>
+    <string name="sSend">Отправить</string>
+    <string name="strAdd">Добавить</string>
+    <string name="strIP">IP-адрес</string>
+    <string name="strPort">порт</string>
+    <string name="maps">Карты</string>
+    <string name="player_id">ID</string>
+    <string name="player_ingame_time">Время в игре</string>
+    <string name="player_score">Счет</string>
+    <string name="player_ip">IP-адрес</string>
+    <string name="player_steamid">Steam ID</string>
+    <string name="player_ping">Пинг</string>
+
+    <string name="settings_bansystem">Система банов</string>
+    <string name="settings_bansystem_sum">Требуется для правильной работы команды бана игрока</string>
+    <string name="settings_ban">Баны</string>
+    <string name="settings_customban_sum">{id} - id игрока;   {time} - время бана \n{reason} - причина бана \nПример: amx_ban {id} {time} {reason}</string>
+    <string name="settings_serverlist">Список серверов</string>
+    <string name="settings_autorefresh_int">Автообновление списка серверов</string>
+    <string name="settings_autorefresh_int_sum">Выберите интервал автообновления</string>
+
+</resources>
